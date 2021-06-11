@@ -9,7 +9,10 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+                <link href="//fonts.gstatic.com" rel="preconnect" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
         <body>
           <Main />
           <NextScript />
