@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <div className={styles.container}>
+    <div>
      this is about
     
     </div>
