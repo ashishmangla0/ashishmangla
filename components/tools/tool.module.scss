@@ -1,0 +1,22 @@
+.tools {
+    background: #141d38;
+    color: #ffffff;
+    &__pattren {
+      &1,
+      &2 {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        top:0;
+      }
+      &1 {
+        left: 0;
+        background: url(../../public/tool-pattern-1.png) no-repeat;
+      }
+      &2 {
+        right: 0;
+        background: url(../../public/tool-pattern-2.png) no-repeat;
+      }
+    }
+  }
+  
