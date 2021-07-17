@@ -19,6 +19,9 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
+          <a class="skipnav" href="#main">
+            Skip to main content
+          </a>
           <Main />
           <NextScript />
         </body>

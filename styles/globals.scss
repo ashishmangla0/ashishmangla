@@ -32,5 +32,17 @@ a {
 }
 section{
   position: relative;
-  padding: 2rem 0;
+  padding: 3rem 0;
+}
+
+
+.row {
+  margin: 0 -15px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+[class*="col-"],
+.container {
+  padding: 0 15px;
 }
