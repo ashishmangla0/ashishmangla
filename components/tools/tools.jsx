@@ -4,7 +4,7 @@ import Image from "next/image";
 const tools = [
   { name: "HTML5" },
   { name: "CSS3" },
-  { name: "swagger" },
+  { name: "Swagger" },
   { name: "Jira" },
   { name: "Bitbucket" },
   { name: "Trello" },
