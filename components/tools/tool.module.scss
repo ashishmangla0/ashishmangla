@@ -22,18 +22,27 @@
     &1,
     &2 {
       position: absolute;
-      width: 25%;
+      width: 30%;
       height: 100%;
-      top: 0;
-      background-size: cover;
+     
     }
     &1 {
       left: 0;
+      top:0;
       background: url(../../public/tool-pattern-1.png) no-repeat center left;
     }
     &2 {
       right: 0;
+      bottom: 0;
       background: url(../../public/tool-pattern-2.png) no-repeat center right;
+    }
+  }
+  &shape{
+    &1{
+      width: 313px;
+      position: absolute;
+      bottom: 0;
+      opacity: .65;
     }
   }
 }

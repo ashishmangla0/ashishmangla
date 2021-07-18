@@ -15,6 +15,7 @@ const tools = [
 const Tools = () => {
   return (
     <Section className={style.tools}>
+      <img src='shape-1.png' role="presentation" aria-hidden="true" className={style.tools__shape1} />
       <div className={style.tools__pattren1}></div>
       <div className={style.tools__pattren2}></div>
       <div className="container">
