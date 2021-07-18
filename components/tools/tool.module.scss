@@ -26,18 +26,15 @@
       height: 100%;
      
     }
+    
     &1 {
-      left: 0;
-      top:0;
-      background: url(../../public/tool-pattern-1.png) no-repeat center left;
-    }
-    &2 {
       right: 0;
       bottom: 0;
       background: url(../../public/tool-pattern-2.png) no-repeat center right;
+      background-size: contain;
     }
   }
-  &shape{
+  &__shape{
     &1{
       width: 313px;
       position: absolute;
@@ -45,4 +42,5 @@
       opacity: .65;
     }
   }
+  
 }
