@@ -8,7 +8,7 @@ const tools = [
   { name: "Jira" },
   { name: "Bitbucket" },
   { name: "trello" },
-  { name: "browserstack" },
+  { name: "BrowserStack" },
   { name: "Jira" },
 ];
 
@@ -20,17 +20,15 @@ const Tools = () => {
       <div className="container">
         <div className={`row ${style.tools__list}`}>
           {tools.map((tool) => (
-            <div className={`col-md-4 ${style.tools__item}`}>
-              {" "}
+            <div className={`col ${style.tools__item}`}>
               <div className={style.tools__wrap}>
                 <Image
                   placeholder="blur"
-                  src={`https://res.cloudinary.com/dcqiq1pu5/image/upload/v1626277693/tools/${tool.name}.jpg`}
+                  src={`https://res.cloudinary.com/dcqiq1pu5/image/upload/v1626277693/tools/${tool.name}.png`}
                   alt={`${tool.name}`}
-                  layout="responsive"
-                  width={700}
-                  height={"auto"}
-                />{" "}
+                  width={100}
+                  height={100}
+                />
               </div>
             </div>
           ))}
